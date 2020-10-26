@@ -1,0 +1,24 @@
+.SidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SidebarOption svg{
+    padding: 10px;
+}
+
+.SidebarOption h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.SidebarOption:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+}
+
+.SidebarOption svg{
+    color: #2e81f4;
+}
