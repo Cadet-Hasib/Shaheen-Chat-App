@@ -1,0 +1,34 @@
+.Post{
+    width: 80%;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-left: 15px;
+}
+
+.post__image img{
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.post__top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post__avatar{
+    margin-right: 10px;
+}
+
+.post__bottom{
+    padding: 15px 25px;
+    margin-bottom: 10px;
+}
+
+.post__topInfo h3{
+    font-size: medium;
+}

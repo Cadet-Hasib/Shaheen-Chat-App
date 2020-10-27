@@ -10,7 +10,7 @@ function MessageSender() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // DB Refresh on enter
+        // todo DB Refresh on enter
         setInput("")
         setImageURL("")
     }
@@ -26,6 +26,7 @@ function MessageSender() {
                     placeholder={"Message"}
                     type="text" />
                     <input
+                    value={imageURL}
                     onChange={(e) => setImageURL(e.target.value)}
                     className="alternate__input"
                     placeholder={"Image URL (Optional)"} type="text" />
