@@ -1,0 +1,41 @@
+.MessageSender{
+    display: flex;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-left: 10px;
+}
+
+.messageSender__main{
+    display: flex;
+    padding: 20px;
+}
+
+.MessageSender form{
+    display: flex;
+    flex: 1;
+}
+
+.messageSender__main form input{
+    background-color: #ececec;
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 999px;
+}
+
+.messageSender__main form button{
+    display: none;
+}
+
+.main__input{
+    flex: 1;
+    width: 360px;
+}
+
+.alternate__input{
+    flex: 1;
+    width: 200px;
+}
