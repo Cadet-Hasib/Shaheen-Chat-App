@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
+import Login from './Login';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
     	<div className="App">
 			
 			{!user ? (
-				<h1>Login</h1>
+				<Login />
 			) : (
 				<>
 					<Header />
